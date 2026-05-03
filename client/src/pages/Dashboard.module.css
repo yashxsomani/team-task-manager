@@ -1,0 +1,109 @@
+/* Dashboard.module.css */
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  color: #666;
+}
+
+.number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin: 0;
+}
+
+.tasksByStatus {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.statusGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.statusItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.count {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.overdueTasks,
+.recentProjects {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.taskList,
+.projectList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem,
+.projectItem {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.taskItem:last-child,
+.projectItem:last-child {
+  border-bottom: none;
+}
+
+.taskInfo h4,
+.projectItem h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.taskInfo p,
+.projectItem p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  padding: 2rem;
+}
