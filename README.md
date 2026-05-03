@@ -4,7 +4,7 @@ A full-stack task management application for teams with authentication, role-bas
 
 ## Live Demo
 
-- Live URL: `https://your-app.railway.app`
+- Live URL: `happy-blessing-production.up.railway.app`
 - GitHub Repo: `https://github.com/<your-username>/team-task-manager`
 
 ## Features
